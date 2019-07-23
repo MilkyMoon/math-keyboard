@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'static/js/math-keyboard.min.js'
+    filename: 'math-keyboard.min.js'
   },
   module: {
     rules: [
@@ -52,6 +52,7 @@ module.exports = {
     overlay: true,
     compress: true,
     disableHostCheck: true,
+    port: 8080
   },
   performance: {
     hints: false
