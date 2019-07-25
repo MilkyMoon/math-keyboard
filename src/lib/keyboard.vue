@@ -608,9 +608,9 @@ export default {
         method: 'post',
         data: params,
         dataType:'json',
-        cache: false,  
-        processData: false,  
-        contentType: false, 
+        // cache: false,  
+        // processData: false,  
+        // contentType: false, 
         success(res){
           that.loading = false
           console.log(res)

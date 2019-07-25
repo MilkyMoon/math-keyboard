@@ -6,6 +6,10 @@
 
 [演示地址](http://www.codwiki.cn/laboratory/keyboard)
 
+### 更新日志
+
+1. 增加输入框触摸移动光标
+
 ### 插件的安装
 
 #### NPM

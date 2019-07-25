@@ -1,19 +1,28 @@
 {
   "name": "math-keyboard",
   "description": "基于vue项目的移动端数学公式键盘，支持手写",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "彭棕",
   "license": "MIT",
   "private": false,
   "main": "src/lib/index.js",
-  "keyword": "",
+  "keyword": [
+    "math",
+    "vue",
+    "math-keyboard",
+    "vue-keyboard",
+    "vue-math-keyboard",
+    "keyboard",
+    "formula",
+    "MathKeyboard"
+  ],
   "files": [
     "src/lib",
     "static"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FEMessage/el-data-table.git"
+    "url": "https://github.com/MilkyMoon/math-keyboard.git"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
