@@ -77,9 +77,6 @@ $.ajax({
     strokes:params
   },
   dataType:'json',
-  cache: false,  
-  processData: false,  
-  contentType: false, 
   success(res){
     console.log(res.data)
 	}

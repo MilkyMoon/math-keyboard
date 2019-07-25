@@ -1,12 +1,12 @@
 {
   "name": "math-keyboard",
   "description": "基于vue项目的移动端数学公式键盘，支持手写",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "彭棕",
   "license": "MIT",
   "private": false,
   "main": "src/lib/index.js",
-  "keyword": [
+  "keywords": [
     "math",
     "vue",
     "math-keyboard",
