@@ -586,14 +586,19 @@ export default {
         })
       })
 
-      var blob = new Blob([scg], {
-        type: "text/plain;charset=utf-8"
-      });
 
-      var params = new FormData();
-      params.append('file', blob);
+      // SCG_INK文件
+      // var blob = new Blob([scg], {
+      //   type: "text/plain;charset=utf-8"
+      // });
 
-      //data: that.arrToStr(that.retArr)
+      // var params = new FormData();
+      // params.append('file', blob);
+      
+      let params = {
+        strokes: that.arrToStr(that.retArr)
+      }
+
       if(that.ajax){
         that.ajax.abort()
       }
@@ -609,9 +614,9 @@ export default {
         success(res){
           that.loading = false
           console.log(res)
-          that.latex = res.data.replace(/COMMA/g,",")
+          // that.latex = res.data.replace(/COMMA/g,",")
           that.$emit('update:value',res.data)
-          that.mathField.latex(that.latex)
+          that.mathField.latex(res.data)
         }
       });
     },

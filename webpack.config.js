@@ -6,7 +6,7 @@ module.exports = {
   // entry: './src/lib/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    publicPath: 'dist/',
     filename: 'math-keyboard.min.js'
   },
   module: {
@@ -35,7 +35,7 @@ module.exports = {
         test: /\.(png|jpg|gif|svg|woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+          name: 'img/[name].[ext]?[hash]'
         }
       }
     ]

@@ -9,7 +9,6 @@
         v-bind:keypanel='1'
         :value.sync="value"
         :output.sync="output"
-        :ctrl.sync="ctrl"
         url='http://localhost:8080/formula'
         v-bind:writeShow='true'
     ></math-keyboard>
@@ -22,7 +21,6 @@ export default {
     return{
       show:false,
       value:'',
-      ctrl:0,
       output:''
     }
   },
