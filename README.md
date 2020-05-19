@@ -4,7 +4,7 @@
 
 ### Demo地址
 
-[演示地址](http://www.codwiki.cn/laboratory/keyboard)
+[演示地址](http://wechat.codwiki.cn/laboratory/keyboard) (测试手写识别接口暂时失效)
 
 ### 更新日志
 
@@ -21,7 +21,7 @@ npm i math-keyboard
 #### 插件依赖
 
 ```html
-由于本插件公式渲染使用了mathquill.js,该插件依赖于JQuery，所以需要正确应用JQuery
+由于本插件公式渲染使用了mathquill.js,该插件依赖于JQuery，所以需要正确引用JQuery
 
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 ```
